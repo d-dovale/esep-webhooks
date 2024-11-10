@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\x_Coding Projects\\esep-webhooks\\src\\EsepWebhook.csproj": {}
+    "D:\\x_Coding Projects\\esep-webhooks\\test\\EsepWebhook.Tests\\EsepWebhook.Tests.csproj": {}
   },
   "projects": {
-    "D:\\x_Coding Projects\\esep-webhooks\\src\\EsepWebhook.csproj": {
+    "D:\\x_Coding Projects\\esep-webhooks\\test\\EsepWebhook.Tests\\EsepWebhook.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\x_Coding Projects\\esep-webhooks\\src\\EsepWebhook.csproj",
-        "projectName": "EsepWebhook",
-        "projectPath": "D:\\x_Coding Projects\\esep-webhooks\\src\\EsepWebhook.csproj",
+        "projectUniqueName": "D:\\x_Coding Projects\\esep-webhooks\\test\\EsepWebhook.Tests\\EsepWebhook.Tests.csproj",
+        "projectName": "EsepWebhook.Tests",
+        "projectPath": "D:\\x_Coding Projects\\esep-webhooks\\test\\EsepWebhook.Tests\\EsepWebhook.Tests.csproj",
         "packagesPath": "C:\\Users\\invad\\.nuget\\packages\\",
-        "outputPath": "D:\\x_Coding Projects\\esep-webhooks\\src\\obj\\",
+        "outputPath": "D:\\x_Coding Projects\\esep-webhooks\\test\\EsepWebhook.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\invad\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,13 +47,21 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "Amazon.Lambda.Serialization.SystemTextJson": {
+            "Amazon.Lambda.TestUtilities": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.0.0, )"
             },
-            "Newtonsoft.Json": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[15.5.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
@@ -67,12 +75,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-              "version": "[8.0.10, 8.0.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
