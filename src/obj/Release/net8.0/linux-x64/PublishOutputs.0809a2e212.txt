@@ -1,0 +1,6 @@
+D:\x_Coding Projects\esep-webhooks\src\bin\Release\net8.0\publish\EsepWebhook.deps.json
+D:\x_Coding Projects\esep-webhooks\src\bin\Release\net8.0\publish\EsepWebhook.runtimeconfig.json
+D:\x_Coding Projects\esep-webhooks\src\bin\Release\net8.0\publish\EsepWebhook.pdb
+D:\x_Coding Projects\esep-webhooks\src\bin\Release\net8.0\publish\Amazon.Lambda.Core.dll
+D:\x_Coding Projects\esep-webhooks\src\bin\Release\net8.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+D:\x_Coding Projects\esep-webhooks\src\bin\Release\net8.0\publish\EsepWebhook.dll
